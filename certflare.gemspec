@@ -13,9 +13,12 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://iotaspencer.me/projects/certflare/"
   spec.license       = "MIT"
 
+<<<<<<< HEAD
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
 
+=======
+>>>>>>> master
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end

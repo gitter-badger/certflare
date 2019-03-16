@@ -6,9 +6,8 @@
 /pkg/
 /spec/reports/
 /tmp/
-/vendor
+/.idea/
+/vendor/
 # rspec failure tracking
 .rspec_status
-
 Gemfile.lock
-.idea/
