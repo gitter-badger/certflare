@@ -1,5 +1,7 @@
 # Certflare
 
+[![Join the chat at https://gitter.im/IotaSpencer/certflare](https://badges.gitter.im/IotaSpencer/certflare.svg)](https://gitter.im/IotaSpencer/certflare?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Certflare is an easier and quicker way to your certs from certbot/letsencrypt/ietf.
 Why make your own script when something does it better and easier, especially if you don't know ruby.
 
