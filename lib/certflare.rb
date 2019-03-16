@@ -1,5 +1,5 @@
-require "untitled1/version"
+require "certflare/version"
 
-module Untitled1
+module Certflare
   # Your code goes here...
 end

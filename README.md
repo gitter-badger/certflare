@@ -1,38 +1,46 @@
-# Untitled1
+# Certflare
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/untitled1`. To experiment with that code, run `bin/console` for an interactive prompt.
+Certflare is an easier and quicker way to your certs from certbot/letsencrypt/ietf.
+Why make your own script when something does it better and easier, especially if you don't know ruby.
 
-TODO: Delete this and the text above, and describe your gem
+Just install this, run xxxxx and you'll be on your way,  
+and certbot and certflare will work together to keep  
+your certificates valid.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'untitled1'
+gem 'certflare'
 ```
 
 And then execute:
 
-    $ bundle
+    bundle
 
 Or install it yourself as:
 
-    $ gem install untitled1
+    gem install certflare
 
 ## Usage
 
-TODO: Write usage instructions here
+#### Authenticating:
 
-## Development
+    certflare auth [options]
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+#### Cleaning Up
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+    certflare clean [options]
+
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/untitled1. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub  
+ at [IotaSpencer/certflare](https://github.com/IotaSpencer/certflare).  
+ 
+ This project is intended to be a safe, welcoming space for collaboration.  
+ Contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -40,4 +48,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Untitled1 project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/untitled1/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Certflare project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/IotaSpencer/certflare/blob/master/CODE_OF_CONDUCT.md).

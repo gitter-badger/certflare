@@ -1,0 +1,6 @@
+#! /usr/bin/ruby
+
+require 'certflare'
+require 'certflare/runner'
+
+Certflare::Runner.execute!

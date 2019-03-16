@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "untitled1"
+require "certflare"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
