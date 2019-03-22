@@ -1,5 +1,7 @@
 # Certflare
 
+[![Join the chat at https://gitter.im/Certflare/community](https://badges.gitter.im/Certflare/community.svg)](https://gitter.im/Certflare/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Certflare is an easier and quicker way to your certs from certbot/letsencrypt/ietf.
 Why make your own script when something does it better and easier, especially if you don't know ruby.
 
@@ -25,14 +27,21 @@ Or install it yourself as:
 
 ## Usage
 
+### As a Hook
+
 #### Authenticating:
 
-    certflare auth [options]
+    certflare_hook auth [options]
+    
+    certbot --auth-hook="certflare_hook auth [options]"
 
 #### Cleaning Up
 
-    certflare clean [options]
+    certflare_hook clean [options]
 
+### As a client itself
+
+    certflare
 
 ## Contributing
 
